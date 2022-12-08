@@ -3,6 +3,6 @@
   "hardReloadOnChange": true,
   "view": "browser",
   "container": {
-    "startScript": "yarn start"
+    "startScript": "dev"
   }
 }

@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "start": "node ./src/index.js --ignore ./public",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "dev": "nodemon"
   },
   "dependencies": {
     "@lwc/compiler": "2.32.1",
