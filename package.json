@@ -1,0 +1,24 @@
+{
+  "name": "lwc-playground-latest",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node ./src/index.js --ignore ./public",
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "@lwc/compiler": "2.32.1",
+    "@lwc/engine-dom": "2.32.1",
+    "@lwc/rollup-plugin": "2.32.1",
+    "@lwc/synthetic-shadow": "2.32.1",
+    "@lwc/wire-service": "2.32.1",
+    "express": "4.17.1",
+    "rollup": "3.6.0",
+    "rollup-plugin-replace": "2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "license": "MIT",
+  "keywords": []
+}
