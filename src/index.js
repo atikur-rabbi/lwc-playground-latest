@@ -3,7 +3,7 @@ const path = require("path");
 const app = express();
 const port = 3000;
 const rollup = require("rollup");
-const config = require("../roolup.config");
+const config = require("../rollup.config");
 
 app.use(express.static("public"));
 
